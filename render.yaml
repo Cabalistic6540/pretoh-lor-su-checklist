@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: pretoh-lor-su-checklist
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: "npm start"
+    autoDeploy: true

@@ -1,0 +1,252 @@
+{
+  "categories": [
+    {
+      "id": "cat-docs",
+      "title": "เอกสาร / เงิน / ติดต่อ",
+      "items": [
+        {
+          "id": "item-id-card",
+          "text": "บัตรประชาชน"
+        },
+        {
+          "id": "item-cash",
+          "text": "เงินสดย่อย"
+        },
+        {
+          "id": "item-phone",
+          "text": "โทรศัพท์"
+        },
+        {
+          "id": "item-cable",
+          "text": "สายชาร์จ"
+        },
+        {
+          "id": "item-power-bank",
+          "text": "พาวเวอร์แบงค์"
+        },
+        {
+          "id": "item-family-notice",
+          "text": "แจ้งคนที่บ้านเรื่องวันไป-กลับ"
+        }
+      ]
+    },
+    {
+      "id": "cat-water-light",
+      "title": "กันน้ำ / ไฟ / อุปกรณ์จำเป็น",
+      "items": [
+        {
+          "id": "item-dry-bag",
+          "text": "ถุงกันน้ำ"
+        },
+        {
+          "id": "item-phone-waterproof",
+          "text": "ซองกันน้ำมือถือ"
+        },
+        {
+          "id": "item-headlamp",
+          "text": "ไฟฉายคาดหัว"
+        },
+        {
+          "id": "item-backup-light",
+          "text": "ไฟฉายสำรอง"
+        },
+        {
+          "id": "item-battery",
+          "text": "ถ่านสำรอง"
+        },
+        {
+          "id": "item-trash-bag",
+          "text": "ถุงขยะส่วนตัว"
+        },
+        {
+          "id": "item-rain-cover",
+          "text": "เสื้อกันฝน"
+        },
+        {
+          "id": "item-emergency-kit",
+          "text": "ชุดฉุกเฉิน"
+        }
+      ]
+    },
+    {
+      "id": "cat-medicine",
+      "title": "ยา / สุขภาพ",
+      "items": [
+        {
+          "id": "item-personal-med",
+          "text": "ยาประจำตัว"
+        },
+        {
+          "id": "item-motion-sick",
+          "text": "ยาแก้เมารถ"
+        },
+        {
+          "id": "item-paracetamol",
+          "text": "พารา"
+        },
+        {
+          "id": "item-allergy",
+          "text": "ยาแก้แพ้"
+        },
+        {
+          "id": "item-ors",
+          "text": "เกลือแร่"
+        },
+        {
+          "id": "item-plaster",
+          "text": "พลาสเตอร์"
+        },
+        {
+          "id": "item-wound-care",
+          "text": "ยาทาแผล / เบตาดีน"
+        },
+        {
+          "id": "item-mosquito",
+          "text": "สเปรย์กันยุง / ยาทากันแมลง"
+        }
+      ]
+    },
+    {
+      "id": "cat-clothes",
+      "title": "เสื้อผ้า",
+      "items": [
+        {
+          "id": "item-hiking-shirt",
+          "text": "เสื้อเดินป่า"
+        },
+        {
+          "id": "item-hiking-pants",
+          "text": "กางเกงเดินป่า"
+        },
+        {
+          "id": "item-poncho",
+          "text": "เสื้อกันฝน / poncho"
+        },
+        {
+          "id": "item-light-jacket",
+          "text": "เสื้อกันหนาวบาง"
+        },
+        {
+          "id": "item-sleepwear",
+          "text": "ชุดนอน"
+        },
+        {
+          "id": "item-leech-socks",
+          "text": "ถุงกันทาก"
+        },
+        {
+          "id": "item-socks",
+          "text": "ถุงเท้า"
+        },
+        {
+          "id": "item-towel-cloth",
+          "text": "ผ้าขนหนูแห้งไว"
+        }
+      ]
+    },
+    {
+      "id": "cat-shoes",
+      "title": "รองเท้า",
+      "items": [
+        {
+          "id": "item-hiking-shoes",
+          "text": "รองเท้าเดินป่า"
+        },
+        {
+          "id": "item-sandals",
+          "text": "รองเท้าแตะรัดส้น"
+        },
+        {
+          "id": "item-wet-shoes",
+          "text": "ชุดใส่รองเท้าเปียก"
+        }
+      ]
+    },
+    {
+      "id": "cat-sleep",
+      "title": "นอน / แคมป์",
+      "items": [
+        {
+          "id": "item-tent-borrow",
+          "text": "เต็นท์ หรือยืมของบ้านรถได้"
+        },
+        {
+          "id": "item-sleeping-bag-borrow",
+          "text": "ถุงนอน หรือยืมของบ้านรถได้"
+        },
+        {
+          "id": "item-sleeping-pad",
+          "text": "แผ่นรองนอน"
+        },
+        {
+          "id": "item-pillow",
+          "text": "หมอนเล็ก / หมอนเป่าลม"
+        }
+      ]
+    },
+    {
+      "id": "cat-food-drink",
+      "title": "กิน / ดื่ม",
+      "items": [
+        {
+          "id": "item-water-bottle",
+          "text": "ขวดน้ำ"
+        },
+        {
+          "id": "item-private-cup",
+          "text": "แก้วส่วนตัว"
+        },
+        {
+          "id": "item-snack-energy",
+          "text": "ลูกอม / ถั่ว / energy bar"
+        },
+        {
+          "id": "item-coffee-tea",
+          "text": "กาแฟ / ชา ถ้าต้องการ"
+        }
+      ]
+    },
+    {
+      "id": "cat-before-trip",
+      "title": "ก่อนเดินทาง",
+      "items": [
+        {
+          "id": "item-map-offline",
+          "text": "เช็กพื้นที่ปิด"
+        },
+        {
+          "id": "item-weather",
+          "text": "เช็กสภาพอากาศ"
+        },
+        {
+          "id": "item-food-plan",
+          "text": "คุยกันจัดเตรียมเรื่องอาหาร"
+        },
+        {
+          "id": "item-backpack-plan",
+          "text": "คุยกันจัดกระเป๋าเรื่องลูกหาบ"
+        },
+        {
+          "id": "item-meeting-point",
+          "text": "แชทบอกจุดนัดหมาย"
+        },
+        {
+          "id": "item-money-transfer",
+          "text": "ชำระเงิน/ทอนคุยเรื่องเงิน"
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "person-mpqwi0jr-qyn57m",
+      "name": "ซีโตส"
+    },
+    {
+      "id": "person-mpqwj6sm-3hvruk",
+      "name": "คนสวย"
+    }
+  ],
+  "checks": {},
+  "updatedAt": "2026-05-29T12:32:12.070Z"
+}

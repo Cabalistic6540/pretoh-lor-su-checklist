@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checklist ไปเปรโต๊ะลอซู</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="topbar">
+        <div>
+          <p class="eyebrow">Shared Trip Checklist</p>
+          <h1>Checklist ไปเปรโต๊ะลอซู</h1>
+        </div>
+        <div class="status-pill" id="syncStatus">กำลังโหลด</div>
+      </section>
+
+      <section class="summary-band">
+        <div>
+          <span class="summary-label">เพื่อนทั้งหมด</span>
+          <strong id="peopleCount">0</strong>
+        </div>
+        <div>
+          <span class="summary-label">รายการทั้งหมด</span>
+          <strong id="itemCount">0</strong>
+        </div>
+        <div>
+          <span class="summary-label">ยังขาดรวม</span>
+          <strong id="missingCount">0</strong>
+        </div>
+      </section>
+
+      <section class="person-panel">
+        <form class="panel" id="personForm">
+          <label for="personName">ชื่อคนที่กำลังติ๊ก</label>
+          <div class="inline-form">
+            <input id="personName" name="name" placeholder="เช่น หมู" autocomplete="off" required>
+            <button type="submit">เริ่มติ๊ก</button>
+          </div>
+          <p class="help-text">ใส่ชื่อแล้วกดเริ่มติ๊ก ถ้าชื่อนี้มีอยู่แล้ว ระบบจะโหลดของที่เคยติ๊กไว้ให้เลย</p>
+          <div class="active-person" id="activePerson">ยังไม่ได้เลือกชื่อ</div>
+        </form>
+      </section>
+
+      <section class="controls-grid">
+        <form class="panel" id="categoryForm">
+          <label for="categoryTitle">เพิ่มหมวดใหม่</label>
+          <div class="inline-form">
+            <input id="categoryTitle" name="title" placeholder="เช่น กล้อง / เดินป่า" autocomplete="off" required>
+            <button type="submit">เพิ่ม</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="workspace-grid">
+        <div class="checklist-area">
+          <div class="section-heading">
+            <h2>Checklist</h2>
+            <p id="lastUpdated">ยังไม่มีข้อมูลล่าสุด</p>
+          </div>
+          <div class="category-grid" id="checklistWrap"></div>
+        </div>
+
+        <aside class="missing-area">
+          <div class="section-heading compact">
+            <h2>ใครยังขาดอะไร</h2>
+            <p>อัปเดตอัตโนมัติ</p>
+          </div>
+          <div class="missing-list" id="missingList"></div>
+        </aside>
+      </section>
+    </main>
+
+    <template id="emptyTemplate">
+      <div class="empty-state">
+        <h2>ใส่ชื่อด้านบนก่อน</h2>
+        <p>พอเลือกชื่อแล้วจะติ๊กของแต่ละหมวดได้ทันที และเพื่อนคนอื่นจะเห็นสรุปที่ยังขาดแบบ realtime</p>
+      </div>
+    </template>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
